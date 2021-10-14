@@ -61,18 +61,18 @@
       },
       "Azure.Bicep.Types": {
         "type": "Transitive",
-        "resolved": "0.1.245",
-        "contentHash": "duXuhZEwxElpsBUe1A6h6DOZYQeDHddSS7EQ57J69F9GxRyiWD5r32Z+5EE7pi/D7RwUom+4pz7Ec/OlBwEvFw==",
+        "resolved": "0.1.304",
+        "contentHash": "sxaNlc6bH+gneUl77BQt0JvVK0lWSRn1HNqoTlDelD3yPrD0v/0e6V1FYlp/UJFbhfio12mcI2TlIrByU3Obpg==",
         "dependencies": {
           "System.Text.Json": "5.0.2"
         }
       },
       "Azure.Bicep.Types.Az": {
         "type": "Transitive",
-        "resolved": "0.1.245",
-        "contentHash": "teStLKj5DN3fMNGyZppGLN9YQZDFi9lmIm2nXyqWDKwn5twLIsydcSJs9ehF1VPeTcbmVjo83F5zZB+5fSPxRg==",
+        "resolved": "0.1.304",
+        "contentHash": "iT/z7QtI9L1P7E7IGvg/pCSeObGINMEMiUm47l8h00TSQ83rd91Y7Et+vpA9WMiLBQi75gq/Ogkffv7Zq1bjKw==",
         "dependencies": {
-          "Azure.Bicep.Types": "0.1.245"
+          "Azure.Bicep.Types": "0.1.304"
         }
       },
       "Azure.Core": {
@@ -121,10 +121,10 @@
       },
       "Azure.Identity": {
         "type": "Transitive",
-        "resolved": "1.4.0",
-        "contentHash": "vvjdoDQb9WQyLkD1Uo5KFbwlW7xIsDMihz3yofskym2SimXswbSXuK7QSR1oHnBLBRMdamnVHLpSKQZhJUDejg==",
+        "resolved": "1.4.1",
+        "contentHash": "yuxWej20CUtK2HUU4jm9Vft1wPw2NWKpwS9Zr0hJyph0dp7vgihlzlujR26UdhmvgdMdswsFRZL+k0HcaS07tw==",
         "dependencies": {
-          "Azure.Core": "1.14.0",
+          "Azure.Core": "1.17.0",
           "Microsoft.Identity.Client": "4.30.1",
           "Microsoft.Identity.Client.Extensions.Msal": "2.18.4",
           "System.Memory": "4.5.4",
@@ -1315,12 +1315,12 @@
       "bicep.core": {
         "type": "Project",
         "dependencies": {
-          "Azure.Bicep.Types": "0.1.245",
-          "Azure.Bicep.Types.Az": "0.1.245",
+          "Azure.Bicep.Types": "0.1.304",
+          "Azure.Bicep.Types.Az": "0.1.304",
           "Azure.Deployments.Core": "1.0.253",
           "Azure.Deployments.Expression": "1.0.253",
           "Azure.Deployments.Templates": "1.0.253",
-          "Azure.Identity": "1.4.0",
+          "Azure.Identity": "1.4.1",
           "Azure.ResourceManager.Resources": "1.0.0-beta.2",
           "Bicep.Core.RegistryClient": "1.0.0",
           "Microsoft.Extensions.Configuration": "5.0.0",
